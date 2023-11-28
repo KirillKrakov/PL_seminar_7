@@ -20,7 +20,7 @@ struct list *c(int64_t head, struct list *tail) {
   return h;
 }
 
-/*изменения ЗДЕСЬ*/
+/*Задание №1. Изменения ЗДЕСЬ*/
 size_t list_length(struct list const *l) {
     size_t length = 0;
     while (l) {
